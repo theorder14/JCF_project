@@ -1,1 +1,23 @@
+        // TreeSet
+        Set<String> mySet = new TreeSet<>();
+        mySet.add("ett");
+        mySet.add("ett");
+        mySet.add("två");
+        for (String s : mySet) {
+            System.out.println(s);
+        }
+        // Outputs
+        // ett
+        // två
 
+
+        // TreeMap
+        Map<String, Integer> myMap = new TreeMap<>();
+        myMap.put("Ada", 39092);
+        myMap.put("Beda", 93049);
+        for (String key : myMap.keySet()) {
+            System.out.println(myMap.get(key));
+        }
+        // Outputs
+        // 39092
+        // 93049
