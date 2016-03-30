@@ -1,1 +1,31 @@
+5. Vad är en datastruktur?
+En struktur för organisering av data.
+- Linjära datastrukturer (ex. kö, stack, lista). Sökning sker sekventiellt.
+- Grafer : (ex. träd)
 
+6. Vad är viktigt vid val av datastruktur?
+Valet av struktur påverkar vilka algoritmer som används pga att vissa algoritmer
+fungerar bättre med vissa datastrukturer.
+
+7. Vad innebär "sökning i en osorterad vektor tar linjär tid"?
+I värsta fall måste man gå igenom hela vektorns alla element innan man hittat
+det det man söker. Med andra ord, en sökning i en dubbelt så stor vektor tar
+dubbelt så lång tid.
+
+8. Vad är det för skillnad mellan Hashtable och HashMap?
+- Hashtable är synkroniserad
+- Hashtable tillåter ej null values
+- HashMap har en subklass (LinkedHashMap) som tillåter ordnad iteration.
+
+9. Vad är en 'dictionary' ?
+En datatyp som består av nyckel-värde-par där nycklarna utgör ett set (unika).
+Synonymer ('associative array', map, 'symbol table')
+
+15. Förklara bilden.
+T.ex. använder HashSet en Hash Table för att implementera en associativ array, samt
+implementerar interfacet Set (unika värden).
+
+Implementationer 'Resizable Array', 'Linked List' är bara meningsfulla på
+linjära datastrukturer.
+'Hash Table', 'Balanced Tree' är bara meningsfulla på icke-linjära datastrukturer
+(Träd, grafer).
