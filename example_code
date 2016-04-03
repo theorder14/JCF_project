@@ -21,3 +21,15 @@
         // Outputs
         // 39092
         // 93049
+
+
+       //Vector
+       Vector<Integer> vector = new Vector();
+		vector.add(1);
+		vector.add(2);
+		vector.add(3);
+		System.out.println(vector);
+		}
+	}
+	//Outputs
+	//[1, 2, 3]
