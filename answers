@@ -1,3 +1,21 @@
+1.Vad är en array samt dess för/nackdelar?
+Med Array kan man lagra en grupp primitiver eller objekt.Man kan lagra en sekvens av samma datatyper.
+En fördel är att man kan lagra primitiva typer utan att först omvandla dem till objekt.
+Nackdelen är att man måste först veta hur många element som ska lagras. Array är fixerad så den kan inte växas eller minskas.
+
+2.Vad är en vector samt dess för/nackdelar?
+Vector är lik Array med vissa skillnader. Den är dynamiskt så man kan alltså ändra storleken.Den innehåller också många metoder som inte är end del av collections framework.
+En fördel är att man inte behöver veta storleken av Arrayen i förväg. Man kan helt enkelt ändra på den.
+Nackdelen med Vector är att den körs långsammare.Eftersom Vector är synkroniserad och är ett objekt så är minnes förbrukningen högre.
+
+3.Vad är en hash table samt dess för/nackdelar?
+En datastruktur där data sparas tillsammans med en nyckel.
+Fördel är att den är synkroniserad och man kan lätt få tillgång till ett element i en lista.
+Nackdelen är att två element kan placeras på samma ställe i tabellen och det sker då en kollision. Hash Table blir ineffektiv om det sker för många kollisioner.
+
+4.Vad är en hashfunktion för något?
+Hashfunktion är en algoritm som gör om data till ett heltal som kan fungera som index till en array.
+
 5. Vad är en datastruktur?
 En struktur för organisering av data.
 - Linjära datastrukturer (ex. kö, stack, lista). Sökning sker sekventiellt.
